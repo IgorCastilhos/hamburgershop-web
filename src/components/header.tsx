@@ -1,14 +1,15 @@
+import {Home, UtensilsCrossed} from "lucide-react";
 import {FaHamburger} from "react-icons/fa";
 import {Separator} from "@/components/ui/separator.tsx";
 import {NavLink} from "@/components/nav-link.tsx";
-import {Home, UtensilsCrossed} from "lucide-react";
 import {ThemeToggle} from "@/components/theme/theme-toggle.tsx";
+import {AccountMenu} from "@/components/account-menu.tsx";
 
 export function Header() {
     return (
         <div className={"border-b"}>
             <div className={"flex h-16 items-center gap-6 px-6"}>
-                <FaHamburger className={"h-6 w-6"}/>
+                <FaHamburger className={"h-6 w-6 text-orange-400"}/>
 
                 <Separator orientation={"vertical"} className={"h-6"}/>
 

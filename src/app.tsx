@@ -11,7 +11,7 @@ export function App() {
     return (
         <HelmetProvider>
             <ThemeProvider storageKey={"hamburgershop-theme"} defaultTheme={"system"}>
-                <Helmet titleTemplate={"%s | hamburger.shop"}/>
+                <Helmet titleTemplate={"%s | Hamburger Shop"}/>
                 <Toaster richColors/>
                 <QueryClientProvider client={queryClient}>
                     <RouterProvider router={router}/>

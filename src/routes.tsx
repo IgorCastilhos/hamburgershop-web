@@ -4,7 +4,9 @@ import {SignIn} from "@/pages/auth/sign-in.tsx";
 import {SignUp} from "@/pages/auth/sign-up.tsx";
 import {Error} from "@/pages/error.tsx";
 import {NotFound} from "@/pages/404.tsx";
+import {Dashboard} from "@/pages/app/dashboard/dashboard.tsx";
 import {AuthLayout} from "@/pages/_layouts/auth.tsx";
+import {Orders} from "@/pages/app/orders/orders.tsx";
 
 export const router = createBrowserRouter([
     {
