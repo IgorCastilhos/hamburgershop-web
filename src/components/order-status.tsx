@@ -24,6 +24,18 @@ export function OrderStatus({status}: OrderStatusProps) {
                 <span data-testid={"badge"} className={"h-2 w-2 rounded-full bg-slate-400"}></span>
             )}
 
+            {status === "canceled" && (
+                <span data-testid={"badge"} className={"h-2 w-2 rounded-full bg-rose-500"}></span>
+            )}
+
+            {status === "delivered" && (
+                <span data-testid={"badge"} className={"h-2 w-2 rounded-full bg-emerald-500"}></span>
+            )}
+
+            {["processing", "delivering"].includes(status) && (
+                <span data-testid={"badge"} className={"h-2 w-2 rounded-full bg-amber-500"}></span>
+            )}
+
             <span className={"font-medium text-muted-foreground"}>{orderStatusMap[status]}</span>
         </div>
     )
