@@ -13,7 +13,7 @@ https://github.com/IgorCastilhos/hamburgershop-web/assets/101683017/478ea29b-618
 
 ## Description
 
-The Restaurant Management Dashboard is a web application designed for restaurant managers to create an account, view key metrics about their restaurant, and make data-driven decisions. The platform provides insights into various aspects of the restaurant's performance, such as sales, customer feedback, inventory levels, and more.
+The Restaurant Management Dashboard is a web application designed for restaurant managers to create an account, view key metrics about their restaurant, and make data-driven decisions. The platform provides insights into various aspects of the restaurant's performance, such as sales, customer name, phone, most popular products, and more.
 
 ## Features
 
